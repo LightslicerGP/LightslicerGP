@@ -1,4 +1,3 @@
-
 const youtubeKey = 'AIzaSyALqIoHfT_TGIAm3cGfblgX2F0PmtqRxuA'
 const youtubeUser = 'UCiGIp50poRZRIAuRt604uRg'
 const subCount = document.getElementById('subcount')
