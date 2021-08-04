@@ -11,24 +11,22 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100vw;
-  border-radius: 10vw;
-  border: 1px solid #181818;
+	border-radius: 10vw;
+	border: 1px solid #181818;
 }
-
-.parallax p {
+.parallax p{
   display: flex;
-  justify-content: center;
+	justify-content: center;
   font-size: 10vw;
   color: black;
-  background: cyan;
-  margin: 14vw;
-  border-radius: 5vw;
+	background: cyan;
+	margin: 14vw;
+	border-radius: 5vw;
 }
-
 .title {
   margin: 2vw;
   border-radius: 10vw;
-  box-shadow: inset 5px 5px 15px #080808, inset -5px -5px 15px #282828;
+  box-shadow: inset 1vw 1vw 3vw #080808, inset -1vw -1vw 3vw #282828;
   background: #141414;
   display: flex;
   align-items: center;
@@ -48,7 +46,7 @@ body {
   width: 30vw;
   height: 30vw;
   border-radius: 10vw;
-  box-shadow: 5px 5px 15px #080808, -5px -5px 15px #282828;
+  box-shadow: 1vw 1vw 3vw #080808, -1vw -1vw 3vw #282828;
   background: #181818;
   padding: 2vw;
   margin: 4vw 4vw;
@@ -56,7 +54,7 @@ body {
 }
 
 .intro {
-  box-shadow: 5px 5px 15px #080808, -5px -5px 15px #282828;
+  box-shadow: 1vw 1vw 3vw #080808, -1vw -1vw 3vw #282828;
   background: #1c1c1c;
   border-radius: 10vw;
   display: grid;
@@ -100,7 +98,7 @@ body {
   overflow-x: hidden;
   display: flex;
   border-radius: 6vw;
-  box-shadow: 5px 5px 15px #080808, -5px -5px 15px #282828;
+  box-shadow: 1vw 1vw 3vw #080808, -1vw -1vw 3vw #282828;
   background: #1c1c1c;
 }
 
