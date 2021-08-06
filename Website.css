@@ -2,6 +2,62 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: #181818;
   color: white;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+  background-color: #00e1ff;
+}
+
+header .logo{
+ width: 7vw;
+ height: auto;
+ cursor: pointer;
+ border-radius: 2vw;
+}
+
+.nav__links{
+  list-style: none;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0vw 1vw;
+}
+
+.nav__links li a{
+  color: #ffffff;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.nav__links li a:hover{
+  color: aqua;
+}
+
+li a button{
+  color: #ffffff;
+}
+
+header button{
+ padding: 1vw 2vw;
+ background-color: #c92f2f;
+ border: none;
+ border-radius: 3vw;
+ cursor: pointer;
+ transition: all 0.3s ease 0s;
+}
+
+header button:hover{
+  background-color: #080808;
+}
+
+.cta{
+  font-family: 'Montserrat', sans-serif;
 }
 
 .parallax {
@@ -42,7 +98,7 @@ body {
   font-size: 5vw;
 }
 
-.logo {
+.title .logo {
   width: 30vw;
   height: 30vw;
   border-radius: 10vw;
