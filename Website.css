@@ -14,10 +14,10 @@ header{
 }
 
 header .logo{
- width: 7vw;
- height: auto;
+ width: auto;
+ height: 5vw;
  cursor: pointer;
- border-radius: 2vw;
+ border-radius: 1vw;
 }
 
 .nav__links{
