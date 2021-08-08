@@ -207,3 +207,57 @@ header button:hover {
   background: #282828;
   margin: 0 2vw;
 }
+
+
+
+
+
+@media only screen and (min-width: 900px) {
+  header .logo {
+    height: 4vw;
+    border-radius: 1vw;
+  }
+
+  .li {
+    display: inline-block;
+    padding: 0vw 1vw;
+  }
+
+  .nav__links li a {
+    font-size: 2vw;
+  }
+
+  .cta {
+    font-size: 2vw;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .parallax {
+    background-image: url("https://raw.githubusercontent.com/LightslicerGP/LightslicerGP/master/Pictures/Rubick's%20Cube%20Background.png");
+    height: 20vw;
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 50vw;
+    border-radius: 7vw;
+    border: 0px solid #181818;
+    padding-top: 5vw;
+    width: 40vw;
+  }
+
+  .parallax p {
+    display: inline-block;
+    font-size: 7vw;
+    color: black;
+    background: cyan;
+    margin: 5vw;
+    border-radius: 3vw;
+    padding: 1vw;
+  }
+}
