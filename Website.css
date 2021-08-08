@@ -146,25 +146,29 @@ header button:hover {
   display: grid;
   padding: 7vw;
   margin: auto;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
 }
 
 .counters {
   font-size: 5vw;
-  margin-bottom: 0;
-  padding-top: 0;
-  padding-bottom: 0;
+  margin-bottom: 0vw;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
 }
 
 .subtitles {
   font-size: 3vw;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 0;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  padding-top: 0vw;
   padding-bottom: 2vw;
 }
 
 .introparagraph {
   margin-left: auto;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
   padding: 5vw;
   text-indent: 5vw;
   font-size: 2vw;
