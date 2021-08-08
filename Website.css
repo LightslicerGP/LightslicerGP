@@ -31,6 +31,7 @@ header .logo {
 .nav__links {
   list-style: none;
   padding: 0vw;
+  margin: 0vw;
 }
 
 .nav__links li {
@@ -214,7 +215,7 @@ header button:hover {
 
 
 
-@media only screen and (min-width: 900px) {
+@media (orientation: landscape) {
   header .logo {
     height: 4vw;
     border-radius: 1vw;
@@ -250,17 +251,97 @@ header button:hover {
     background-size: 50vw;
     border-radius: 7vw;
     border: 0px solid #181818;
-    padding-top: 5vw;
+    padding-top: 8vw;
     width: 40vw;
   }
 
   .parallax p {
-    display: inline-block;
+    display: flex;
     font-size: 7vw;
     color: black;
     background: cyan;
     margin: 5vw;
     border-radius: 3vw;
     padding: 1vw;
+  }
+
+  .title {
+    border-radius: 5vw;
+    display: flex;
+    width: 45vw;
+    height: 20vw;
+    margin-top: 8vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-bottom: 0vw;
+  }
+  
+  .title p {
+    width: 30vw;
+    padding: 2vw;
+    margin-left: 2vw;
+    text-align: right;
+    font-size: 3vw;
+  }
+  
+  .title .logo {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 5vw;
+    padding: 1vw;
+    margin: 2vw 2vw;
+    margin-left: auto;
+  }
+
+  .intro {
+    border-radius: 5vw;
+    grid: auto / auto auto;
+    grid-gap: 0vw;
+    margin: 2vw;
+    width: 40vw;
+  }
+  
+  .subsandviews {
+    padding: 3vw;
+  }
+  
+  .counters {
+    font-size: 3vw;
+  }
+  
+  .subtitles {
+    font-size: 2vw;
+    padding-bottom: 1vw;
+  }
+  
+  .introparagraph {
+    padding: 3vw;
+    text-indent: 2vw;
+    font-size: 1vw;
+  }
+
+  .container {
+    width: 46vw;
+    border-radius: 4vw;
+    margin-top: 3vw
+  }
+  
+  .item {
+    height: 23vw;
+  }
+  
+  .carouselshowcase {
+    flex: 0 0 2vw;
+    margin: 1vw;
+    height: 21vw;
+    width: 44vw;
+    border-radius: 3vw;
+  }
+  
+  .links a {
+    border-radius: 5vw;
+    padding: 1vw 3vw;
+    background: #282828;
+    margin: 0 2vw;
   }
 }
