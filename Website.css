@@ -75,6 +75,8 @@ header button:hover {
   font-family: 'Montserrat', sans-serif;
   font-size: 3vw;
   width: auto;
+  height: auto;
+  padding: 1vw 2vw;
 }
 
 .parallax {
@@ -228,7 +230,8 @@ header button:hover {
   }
 
   .cta {
-    font-size: 100%;
+    font-size: 2vw;
+    padding: 0.5vw 1vw;
   }
 
   .top {
