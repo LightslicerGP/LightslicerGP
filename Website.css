@@ -106,7 +106,8 @@ li a button {
 }
 
 .title {
-  margin: 2vw;
+  margin: auto;
+  margin-top: 4vw;
   border-radius: 10vw;
   box-shadow: inset 1vw 1vw 2vw #080808, inset -1vw -1vw 2vw #282828;
   background: #141414;
@@ -143,15 +144,18 @@ li a button {
   display: grid;
   grid: auto / auto auto;
   grid-gap: 0vw;
-  margin: 4vw;
+  margin: auto;
+  margin-top: 4vw;
+  width: 94vw;
 }
 
 .subsandviews {
   display: grid;
   padding: 7vw;
   margin: auto;
-  margin-top: 0vw;
-  margin-bottom: 0vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .counters {
@@ -176,6 +180,10 @@ li a button {
   padding: 5vw;
   text-indent: 5vw;
   font-size: 2vw;
+}
+
+.carousel{
+  margin-top: 5vw;
 }
 
 .container {
@@ -232,6 +240,10 @@ li a button {
 
 
 @media (orientation: landscape) {
+  body{
+  padding-bottom: 2vw;
+  }
+  
   header .logo {
     height: 4vw;
     border-radius: 1vw;
@@ -322,10 +334,6 @@ li a button {
     padding: 3vw;
     text-indent: 2vw;
     font-size: 1vw;
-  }
-
-  .carousel{
-    margin-top: 5vw;
   }
 
   .container {
