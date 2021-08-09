@@ -62,36 +62,24 @@ li a button {
   color: #ffffff;
 }
 
-header button {
+.contact{
+  text-decoration: none;
+  display: flex;
+  font-size: 2vw;
   color: #ffffff;
-  padding: 1vw 2vw;
   background-color: #181818;
   border: none;
   border-radius: 2vw;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  height: auto;
-}
-
-header button:hover {
-  background-color: #ffffff;
-  color: #181818;
-}
-
-.cta {
-  font-family: 'Montserrat', sans-serif;
+  padding: 0.5vw 1.5vw;
   width: auto;
   height: auto;
-  padding: 1vw 2vw;
+  margin-top: 0.5vw;
 }
 
-a.contact{
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3vw;
-}
-
-a.contacthover {
+.contact:hover {
+  background-color: #ffffff;
   color: #181818;
 }
 
