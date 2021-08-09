@@ -6,7 +6,7 @@ body {
   background: #181818;
   color: white;
   margin: 0;
-  padding-bottom: 2vw;
+  padding-bottom: 5vw;
 }
 
 header {
@@ -24,9 +24,15 @@ header {
 
 header .logo {
   width: auto;
-  height: 5vw;
+  height: 4vw;
   cursor: pointer;
   border-radius: 1vw;
+  padding: 0vw;
+}
+
+header a{
+  width: 4vw;
+  height: 4vw;
 }
 
 .nav__links {
@@ -57,14 +63,14 @@ li a button {
 }
 
 header button {
+  color: #ffffff;
   padding: 1vw 2vw;
   background-color: #181818;
   border: none;
-  border-radius: 3vw;
+  border-radius: 2vw;
   cursor: pointer;
-  color: #ffffff;
   transition: all 0.3s ease 0s;
-  display: inline-block;
+  height: auto;
 }
 
 header button:hover {
@@ -74,10 +80,19 @@ header button:hover {
 
 .cta {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3vw;
   width: auto;
   height: auto;
   padding: 1vw 2vw;
+}
+
+a.contact{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3vw;
+}
+
+a.contacthover {
+  color: #181818;
 }
 
 .parallax {
@@ -130,6 +145,7 @@ header button:hover {
   padding: 2vw;
   margin: 4vw 4vw;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .intro {
@@ -198,6 +214,7 @@ header button:hover {
   height: 43vw;
   width: 88vw;
   border-radius: 5vw;
+  object-fit: cover;
 }
 
 .links {
@@ -246,7 +263,7 @@ header button:hover {
     padding: 0.5vw 1vw;
   }
 
-  .top {
+  .bottom {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -308,7 +325,7 @@ header button:hover {
     border-radius: 5vw;
     grid: auto / auto auto;
     grid-gap: 0vw;
-    margin: 2vw;
+    margin: 3vw;
     width: 40vw;
   }
   
@@ -331,16 +348,21 @@ header button:hover {
     font-size: 1vw;
   }
 
+  .carousel{
+    margin-top: 5vw;
+    margin-right: 2vw;
+  }
+
   .container {
     width: 46vw;
     border-radius: 4vw;
-    margin-top: 3vw
+    margin-top: 0vw
   }
   
-  .item {
+  .container a{
     height: 23vw;
   }
-  
+
   .carouselshowcase {
     flex: 0 0 2vw;
     margin: 1vw;
