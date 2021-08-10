@@ -277,6 +277,7 @@ li a button {
     border-radius: 7vw;
     padding-top: 8vw;
     width: 40vw;
+    order: 1;
   }
 
   .parallax p {
@@ -294,6 +295,7 @@ li a button {
     margin-left: 0vw;
     margin-right: 0vw;
     margin-bottom: 0vw;
+    order: 2;
   }
   
   .title p {
@@ -315,6 +317,9 @@ li a button {
   .intro {
     border-radius: 5vw;
     width: 40vw;
+    margin: 0vw;
+    margin-top: 3vw;
+    order: 4;
   }
   
   .subsandviews {
@@ -335,10 +340,14 @@ li a button {
     text-indent: 2vw;
     font-size: 1vw;
   }
+  .carousel{
+    order: 3;
+  }
 
   .container {
     width: 46vw;
     border-radius: 4vw;
+    order: 3;
   }
   
   .container a{
