@@ -1,9 +1,4 @@
-### Hi there 👋
-
-<!--
-**LightslicerGP/LightslicerGP** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
+Hi there 👋
 
 - 🔭 I’m currently working on https://lightslicergp.github.io/Website/
 - 🌱 I’m currently learning HTML/CSS/JScript
@@ -13,4 +8,3 @@ Here are some ideas to get you started:
 - 📫 How to reach me: Lightslicerandpuzzlegamer@gmail.com or LightslicerGP on many social media
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I am pretty good at minecraft parkour (OJ)
--->
