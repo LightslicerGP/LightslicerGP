@@ -8,3 +8,10 @@ Hi there 👋
 - 📫 How to reach me: Lightslicerandpuzzlegamer@gmail.com or LightslicerGP on many social media
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I am pretty good at minecraft parkour (OJ)
+
+
+# Welcome!
+
+- things i like
+- things i do
+- 
