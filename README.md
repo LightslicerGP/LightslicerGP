@@ -42,7 +42,16 @@
 | [SimplySurvival](https://sites.google.com/view/lightslicergp/creations/minecraft/maps) | The ideal world with a simplistic life |
 | [SimplySkin](https://sites.google.com/view/lightslicergp/creations/minecraft/skin-pack) | Simplified skins for you and your friends |
 
+<details>
+  <summary>Recent GitHub Activity</summary>
 
+1. tes
+2. teas
+3. astaesrd
+4. e4r543
+5. sda
+
+</details>
 
 
 
