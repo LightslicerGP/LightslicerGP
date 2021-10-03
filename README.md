@@ -9,6 +9,7 @@
 - 💬 Ask me about how my day was, and my favorite quote
 - 📫 How to reach me: Lightslicerandpuzzlegamer@gmail.com or LightslicerGP on many social media (view below)
 - 😄 Pronouns: He/Him
+- 🎂 Birthday: June 8th
 - ⚡ Fun fact: I am pretty good at minecraft parkour (OJ)
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=LightslicerGP&show_icons=true&title_color=0080ff&bg_color=ffffff&icon_color=00ff00&border_radius=7vw&hide_border=true)
@@ -45,11 +46,11 @@
 <details>
   <summary>Recent GitHub Activity</summary>
 
-1. tes
-2. teas
-3. astaesrd
-4. e4r543
-5. sda
+1. Working on website
+2. number 4
+3. number 1
+4. number 5
+5. number 3
 
 </details>
 
