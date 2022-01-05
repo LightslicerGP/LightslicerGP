@@ -21,21 +21,21 @@
 
 ## Socials
 
-[<img width="20vw" src="./images/Youtube.png">][Youtube]
-[<img width="20vw" src="./images/Linktree.png">][Linktree]
-[<img width="20vw" src="./images/Google.png">][GoogleSite]
-[<img width="20vw" src="./images/Netlify.png">][NetlifySite]
-[<img width="20vw" src="./images/GitHub.png">][GitHubSite]
-[<img width="20vw" src="./images/Discord.png">][Discord]
-[<img width="20vw" src="./images/Instagram.png">][Instagram]
-[<img width="20vw" src="./images/Twitter.png">][Twitter]
-[<img width="20vw" src="./images/Twitch.png">][Twitch]
-[<img width="20vw" src="./images/Reddit.png">][Reddit]
-[<img width="20vw" src="./images/Subreddit.png">][SubReddit]
-[<img width="20vw" src="./images/Tiktok.png">][TikTok]
-[<img width="20vw" src="./images/Snapchat.png">][Snapchat]
-[<img width="20vw" src="./images/Facebook.png">][FaceBook]
-[<img width="20vw" src="./images/Mixer.png">][Mixer]
+[<img width="100vw" src="./images/Youtube.png">][Youtube]
+[<img width="100vw" src="./images/Linktree.png">][Linktree]
+[<img width="100vw" src="./images/Google.png">][GoogleSite]
+[<img width="100vw" src="./images/Netlify.png">][NetlifySite]
+[<img width="100vw" src="./images/GitHub.png">][GitHubSite]
+[<img width="100vw" src="./images/Discord.png">][Discord]
+[<img width="100vw" src="./images/Instagram.png">][Instagram]
+[<img width="100vw" src="./images/Twitter.png">][Twitter]
+[<img width="100vw" src="./images/Twitch.png">][Twitch]
+[<img width="100vw" src="./images/Reddit.png">][Reddit]
+[<img width="100vw" src="./images/Subreddit.png">][SubReddit]
+[<img width="100vw" src="./images/Tiktok.png">][TikTok]
+[<img width="100vw" src="./images/Snapchat.png">][Snapchat]
+[<img width="100vw" src="./images/Facebook.png">][FaceBook]
+[<img width="100vw" src="./images/Mixer.png">][Mixer]
 
 ## Minecraft Creations
 | Name | Description |
