@@ -21,20 +21,21 @@
 
 ## Socials
 
-[<img width="5%" src="./images/Youtube.png">][Youtube]
-[<img width="5%" src="./images/Linktree.png">][Linktree]
-[<img width="5%" src="./images/Google.png">][GoogleSite]
-[<img width="5%" src="./images/GitHub.png">][GitHubSite]
-[<img width="5%" src="./images/Discord.png">][Discord]
-[<img width="5%" src="./images/Instagram.png">][Instagram]
-[<img width="5%" src="./images/Twitter.png">][Twitter]
-[<img width="5%" src="./images/Twitch.png">][Twitch]
-[<img width="5%" src="./images/Reddit.png">][Reddit]
-[<img width="5%" src="./images/Subreddit.png">][SubReddit]
-[<img width="5%" src="./images/Tiktok.png">][TikTok]
-[<img width="5%" src="./images/Snapchat.png">][Snapchat]
-[<img width="5%" src="./images/Facebook.png">][FaceBook]
-[<img width="5%" src="./images/Mixer.png">][Mixer]
+[<img width="20vw" src="./images/Youtube.png">][Youtube]
+[<img width="20vw" src="./images/Linktree.png">][Linktree]
+[<img width="20vw" src="./images/Google.png">][GoogleSite]
+[<img width="20vw" src="./images/Netlify.png">][NetlifySite]
+[<img width="20vw" src="./images/GitHub.png">][GitHubSite]
+[<img width="20vw" src="./images/Discord.png">][Discord]
+[<img width="20vw" src="./images/Instagram.png">][Instagram]
+[<img width="20vw" src="./images/Twitter.png">][Twitter]
+[<img width="20vw" src="./images/Twitch.png">][Twitch]
+[<img width="20vw" src="./images/Reddit.png">][Reddit]
+[<img width="20vw" src="./images/Subreddit.png">][SubReddit]
+[<img width="20vw" src="./images/Tiktok.png">][TikTok]
+[<img width="20vw" src="./images/Snapchat.png">][Snapchat]
+[<img width="20vw" src="./images/Facebook.png">][FaceBook]
+[<img width="20vw" src="./images/Mixer.png">][Mixer]
 
 ## Minecraft Creations
 | Name | Description |
@@ -53,7 +54,8 @@
 5. number 3
 
 </details>
-
+<br>
+If there is any files you see that you like, feel free to use them how you will! Any files in any folders in this github page are just experimental and temporary, so they arent fo actual use.
 
 
 
@@ -62,6 +64,7 @@
 [youtube]: https://youtube.com/codeSTACKr
 [linktree]: https://linktr.ee/LightslicerGP
 [googlesite]: https://sites.google.com/view/lightslicergp/home
+[netlifysite]: https://lightslicergp.netlify.app
 [githubsite]: https://lightslicergp.github.io/Website/
 [collab]: https://goo.gl/forms/rh59cEY56UzOz4zQ2
 [discord]: https://discord.gg/3TGX6RA
