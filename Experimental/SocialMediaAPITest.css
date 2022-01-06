@@ -1,0 +1,5 @@
+#youtubethumbnail {
+  width: 48vw; /* width of container */
+  height: 27vw; /* height of container */
+  object-fit: cover;
+}
