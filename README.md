@@ -47,15 +47,15 @@
 <details>
   <summary>Recent GitHub Activity</summary>
 
-1. Working on website
-2. number 4
-3. number 1
+1. Youtube videos
+2. Working on discord bot
+3. Working on website
 4. number 5
-5. number 3
+5. number 4
 
 </details>
 <br>
-If there is any files you see that you like, feel free to use them how you will! Any files in any folders in this github page are just experimental and temporary, so they arent fo actual use.
+If there is any files you see that you like, feel free to use them how you will! Any files in any folders in this github page are just experimental and temporary, so they arent for actual use.
 
 
 
