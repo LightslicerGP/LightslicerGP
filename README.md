@@ -2,7 +2,7 @@
 ## 👋 Hi there, I am [LightslicerGP][linktree]
 ---
 ### I am a student that loves to game and code!
-- 🔭 I’m currently working on https://lightslicergp.github.io/Website/
+- 🔭 I’m currently working on https://lightslicergp.github.io/Website/ & https://oneuihome.netlify.app/
 - 🌱 I’m currently learning HTML/CSS/JScript
 - 👯 I’m looking to collaborate on a site someone would like for me to help with
 - 🤔 I’m looking for help with some javascript terms
@@ -76,4 +76,4 @@ If there is any files you see that you like, feel free to use them how you will!
 [tiktok]: https://www.tiktok.com/@lightslicergp
 [snapchat]: https://www.snapchat.com/add/lightslicergp
 [facebook]: https://www.facebook.com/LightslicerGP
-[mixer]: https;://www.mixer.com/LightslicerGP
+[mixer]: https://www.mixer.com/LightslicerGP
