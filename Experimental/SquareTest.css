@@ -60,18 +60,13 @@ body {
 }
 
 body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2vw;
   padding: 2vw;
-  height: calc(100vh - 4vw);
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 2vw;
 }
 
 #sideone, #sidetwo {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2vw;
-  overflow: scroll;
 }
 
 :is(.eight, .four, .two, .one) {
