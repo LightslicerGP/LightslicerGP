@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 
 <head>
-  <title>Test Page | LightslicerGP</title>
-  <meta name="description" content="This is a temp page for a design Im going for, this is temp tho lol">
-  <meta name="keywords" content="LightslicerGP, Google Site, Github Site, Netlify Site, LightslicerGP Google Site, LightslicerGP Github Site, LightslicerGP Netlify Site, Neumorphism, Glassmorphism, Main Page, LightslicerGP Main Page">
+  <title>Square SquareTest | LightslicerGP</title>
+  <meta name="description" content="This is a temp page for a design I like, this is temp tho lol">
   <link rel="stylesheet" href="SquareTest.css">
   <link rel="shortcut icon" type="image/png" href="../Images/LSPGv3.jpg">
+  <style>
+    ::-webkit-scrollbar {
+      width: 0;
+      background: transparent;
+    }
+
+    * {
+      margin: 0;
+    }
+
+    body {
+      padding: 2vw;
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-gap: 2vw;
+    }
+
+    #sideone, #sidetwo {
+    }
+
+    :is(.eight, .four, .two, .one) {
+      grid-column-end: var(--span);
+      grid-row-end: var(--span);
+      background-position: center center;
+      background-repeat: no-repeat;
+      aspect-ratio: 1;
+    }
+
+    .eight {
+      --span: span 1;
+      background-color: #eeff00;
+      border-radius: 2vw;
+      background-size: 11.1vw;
+    }
+
+    .four {
+      --span: span 2;
+      background-color: #f00;
+      border-radius: 4vw;
+      background-size: 23.6vw;
+    }
+
+    .two {
+      --span: span 4;
+      background-color: #3cff00;
+      border-radius: 6vw;
+      background-size: 48.5vw;
+    }
+
+    .one {
+      --span: span 8;
+      background-color: #0ff;
+      border-radius: 8vw;
+      background-size: 97.6vw;
+    }
+  </style>
 </head>
 
 <body>

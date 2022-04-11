@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 
 <head>
-  <title>Test Page | LightslicerGP</title>
-  <meta name="description" content="This is a temp page for a design Im going for, this is temp tho lol">
-  <meta name="keywords" content="LightslicerGP, Google Site, Github Site, Netlify Site, LightslicerGP Google Site, LightslicerGP Github Site, LightslicerGP Netlify Site, Neumorphism, Glassmorphism, Main Page, LightslicerGP Main Page">
-  <script defer src="SocialMediaAPITest.js"></script>
-  <link rel="stylesheet" href="SocialMediaAPITest.css">
+  <title>Social Media API | LightslicerGP</title>
+  <meta name="description" content="This is a temp page for an api test Im going for, this is temp tho lol">
   <link rel="shortcut icon" type="image/png" href="../Images/LSPGv3.jpg">
+  <style>
+    :root {
+      --main-color: #181818;
+      --secondary-color: #ffffff;
+      --shadow: #080808;
+      --light: #282828;
+      --text: #ffffff;
+    }
+
+    body {
+      background-color: #181818;
+      color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 2vw;
+    }
+
+    #youtube {
+      padding: 2vw;
+      box-shadow: 1vw 1vw 2vw var(--shadow), -1vw -1vw 2vw var(--light);
+      border-radius: 3vw;
+    }
+
+    #youtubetitle {
+      margin: 0vw 0vw 1vw 0vw;
+    }
+
+    #youtubethumbnail {
+      width: 48vw;
+      height: 27vw;
+      object-fit: cover;
+    }
+  </style>
 </head>
 
 <body>
@@ -31,4 +62,28 @@
   <div id="facebook">
 
   </div>
+  <script>
+      /*
+  const APIKey = 'AIzaSyCVUJKYwvh_iNmRHSLDDKnVfTe7hWd9zeo'
+  const youtubeUser = 'UCiGIp50poRZRIAuRt604uRg'
+  */
+
+  const youtubeTitle = document.getElementById('youtubetitle')
+  const youtubeThumbnail = document.getElementById('youtubethumbnail')
+  const youtubeLink = document.getElementById('youtubelink');
+
+  let getYoutubeInfo = () => {
+    fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCiGIp50poRZRIAuRt604uRg&maxResults=3&order=date&type=video&key=AIzaSyALqIoHfT_TGIAm3cGfblgX2F0PmtqRxuA`)
+      .then(response => {
+        return response.json();
+      })
+      .then(data => {
+        console.log(data);
+        youtubeLink.href = "https://www.youtube.com/watch?v=" + data.items[0].id.videoId;
+        youtubeTitle.innerHTML = data.items[0].snippet.title;
+        youtubeThumbnail.src = data.items[0].snippet.thumbnails.high.url;
+      })
+  }
+getYoutubeInfo();
+  </script>
 </body>

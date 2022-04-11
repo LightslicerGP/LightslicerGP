@@ -3,11 +3,11 @@
 ---
 ### I am a student that loves to game and code!
 - 🔭 I’m currently working on https://lightslicergp.github.io/Website/ & https://oneuihome.netlify.app/
-- 🌱 I’m currently learning HTML/CSS/JScript
+- 🌱 I’m currently learning HTML/CSS/JScript/Aoijs
 - 👯 I’m looking to collaborate on a site someone would like for me to help with
 - 🤔 I’m looking for help with some javascript terms
 - 💬 Ask me about how my day was, and my favorite quote
-- 📫 How to reach me: Lightslicerandpuzzlegamer@gmail.com or LightslicerGP on many social media (view below)
+- 📫 How to reach me: Lightslicerandpuzzlegamer@gmail.com or LightslicerGP on many social media platforms (view below)
 - 😄 Pronouns: He/Him
 - 🎂 Birthday: June 8th
 - ⚡ Fun fact: I am pretty good at minecraft parkour (OJ)
@@ -21,21 +21,21 @@
 
 ## Socials
 
-[<img width="100vw" src="./images/Youtube.png">][Youtube]
-[<img width="100vw" src="./images/Linktree.png">][Linktree]
-[<img width="100vw" src="./images/Google.png">][GoogleSite]
-[<img width="100vw" src="./images/Netlify.png">][NetlifySite]
-[<img width="100vw" src="./images/GitHub.png">][GitHubSite]
-[<img width="100vw" src="./images/Discord.png">][Discord]
-[<img width="100vw" src="./images/Instagram.png">][Instagram]
-[<img width="100vw" src="./images/Twitter.png">][Twitter]
-[<img width="100vw" src="./images/Twitch.png">][Twitch]
-[<img width="100vw" src="./images/Reddit.png">][Reddit]
-[<img width="100vw" src="./images/Subreddit.png">][SubReddit]
-[<img width="100vw" src="./images/Tiktok.png">][TikTok]
-[<img width="100vw" src="./images/Snapchat.png">][Snapchat]
-[<img width="100vw" src="./images/Facebook.png">][FaceBook]
-[<img width="100vw" src="./images/Mixer.png">][Mixer]
+[<img width="19%" src="./images/Youtube.png">][Youtube]
+[<img width="19%" src="./images/Linktree.png">][Linktree]
+[<img width="19%" src="./images/Google.png">][GoogleSite]
+[<img width="19%" src="./images/Netlify.png">][NetlifySite]
+[<img width="19%" src="./images/GitHub.png">][GitHubSite]
+[<img width="19%" src="./images/Discord.png">][Discord]
+[<img width="19%" src="./images/Instagram.png">][Instagram]
+[<img width="19%" src="./images/Twitter.png">][Twitter]
+[<img width="19%" src="./images/Twitch.png">][Twitch]
+[<img width="19%" src="./images/Reddit.png">][Reddit]
+[<img width="19%" src="./images/Subreddit.png">][SubReddit]
+[<img width="19%" src="./images/Tiktok.png">][TikTok]
+[<img width="19%" src="./images/Snapchat.png">][Snapchat]
+[<img width="19%" src="./images/Facebook.png">][FaceBook]
+[<img width="19%" src="./images/Mixer.png">][Mixer]
 
 ## Minecraft Creations
 | Name | Description |
