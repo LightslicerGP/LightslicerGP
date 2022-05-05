@@ -14,9 +14,8 @@
 
 ![Subscribers](https://img.shields.io/youtube/channel/subscribers/UCiGIp50poRZRIAuRt604uRg?color=%230080ff&label=Subscribers&logo=Youtube&logoColor=%23ff0000&style=flat-square)
 
-![Stats](https://github-readme-stats.vercel.app/api?username=LightslicerGP&show_icons=true&title_color=0080ff&bg_color=ffffff&icon_color=00ff00&border_radius=7vw&hide_border=true)
-[![Website](https://github-readme-stats.vercel.app/api/pin/?username=LightslicerGP&repo=Website&title_color=0080ff&bg_color=ffffff&icon_color=00ff00&border_radius=5vw&hide_border=true)](https://lightslicergp.netlify.app/)
-![Top Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=LightslicerGP&langs_count=200&title_color=0080ff&bg_color=ffffff&icon_color=00ff00&border_radius=5vw&hide_border=true)
+<img width="50%" src="https://github-readme-stats.vercel.app/api?username=LightslicerGP&show_icons=true&title_color=0080ff&bg_color=ffffff&icon_color=00ff00&border_radius=7vw&hide_border=true">[<img width="50%" src="https://github-readme-stats.vercel.app/api/pin/?username=LightslicerGP&repo=Website&title_color=0080ff&bg_color=ffffff&icon_color=00ff00&border_radius=5vw&hide_border=true">][NetlifySite]
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LightslicerGP&langs_count=200&title_color=0080ff&bg_color=ffffff&icon_color=00ff00&border_radius=5vw&hide_border=true">
 
 
 ## Socials
