@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <script type="module">
+        const list = document.getElementById('list');
+
+        function problem() {
+            for (let i = 1; i <= 1000; i++) {
+
+                let output = "";
+                
+                if (i % 3 == 0) { output += "Fizz";}
+                if (i % 5 == 0) { output += "Buzz";} 
+                if (output == "") { output = i }
+
+                console.log(output)
+                
+                list.appendChild(document.createElement("li")).textContent = output;
+            }
+        }
+        problem();
+    </script>
+</head>
+
+<body>
+    <h1>
+        Hello, check console :D 
+    </h1>
+    <h4>
+        (or below since i managed to make the code work -4/28/22)
+    </h4>
+    <p id="numbers"></p>
+    <ul id="list">
+    </ul>
+</body>

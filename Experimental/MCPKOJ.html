@@ -1,0 +1,420 @@
+<head>
+    <script type=module>
+        function search(event) {
+            event.preventDefault();
+
+            let searchquery = document.getElementById("searchbar").value.toLowerCase();
+            let x = document.getElementsByClassName('item');
+
+            for (i = 0; i < x.length; i++) {
+                if (!x[i].getAttribute("aliases").includes(searchquery)) {
+                    x[i].style.display = "none";
+                }
+                else {
+                    x[i].style.display = "block";
+                }
+            }
+
+            console.log(searchquery);
+        };
+
+        for (const element of document.querySelectorAll(".difficulty")) {
+            element.dataset.text = element.textContent;
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Onejump Searcher
+        </h1>
+        <form action="" onsubmit="search(event)">
+            <input type="search" id="searchbar">
+            <button type="submit">
+                Search!
+            </button>
+        </form>
+    </header>
+
+    <li id="catalog">
+
+        <div class="item" aliases="j1 god pane waza l2b wad x-facing x facing">
+            <h2 class="title">
+                J1 God
+            </h2>
+            <p class="difficulty">D8</p>
+            <video preload="metadata" controls loading="lazy" src="">
+            </video>
+            <p class="source">
+                Source:
+            </p>
+        </div>
+
+        <div class="item" aliases=" j2 god 1.875bm b2p 3.4375b 4b 45 strafe">
+            <h2 class="title">
+                J2 God
+            </h2>
+            <p class="difficulty">D7</p>
+            <video preload="metadata" controls loading="lazy" src="https://cdn.discordapp.com/attachments/793324984873386014/1000519246570323978/Minecraft_1.8.9_2022-07-24_00-43-33_Trim.mp4"></video>
+            <p class="source">
+                Source: Mauno#7387
+            </p>
+        </div>
+
+        <div class="item" aliases="j3 god sb single block butterfly btfly">
+            <h2 class="title">
+                J3 God
+            </h2>
+            <p class="difficulty">D7</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1028078372594659358/single_block_bfly.mp4">
+            </video>
+            <p class="source">
+                Source: sicaro#2896
+            </p>
+        </div>
+
+        <div class="item" aliases="j4 god p2p 1bl">
+            <h2 class="title">
+                J5 God
+            </h2>
+            <p class="difficulty">D7</p>
+            <video preload="metadata" controls loading="lazy" src="https://cdn.discordapp.com/attachments/793324984873386014/1015287640519606272/Minecraft_1.8.9_2022-09-02_18-48-48_Trim.mp4">
+            </video>
+            <p class="source">
+                Source: Mauno#7387
+            </p>
+        </div>
+
+        <div class="item" aliases="j5 god td2td cross neo">
+            <h2 class="title">
+                J5 God
+            </h2>
+            <p class="difficulty">D7</p>
+            <video preload="metadata" controls loading="lazy" src="https://cdn.discordapp.com/attachments/793324984873386014/912121182407512074/InShot_20211121_175101106.mp4">
+            </video>
+            <p class="source">
+                Source: LightslicerGP#2125
+            </p>
+        </div>
+
+        <div class="item" aliases="j3 champ sb single block anvil butterfly bfly btfly">
+            <h2 class="title">
+                J3 Champ
+            </h2>
+            <p class="difficulty">D8</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1029870568545194044/singleanvilbfly.mp4">
+            </video>
+            <p class="source">
+                Source: wolf#8673
+            </p>
+        </div>
+
+        <div class="item" aliases="s2f 3x3 d10">
+            <h2 class="title">
+                s2f 3x3
+            </h2>
+            <p class="difficulty">D10</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/864227051945852988/3x3s2f.mp4">
+            </video>
+            <p class="source">
+                Source: Drakou111
+            </p>
+        </div>
+
+        <div class="item" aliases="1bmm l2l 5-1 45bwmm double 45 strafe">
+            <h2 class="title">
+                L2l 5-1
+            </h2>
+            <p class="difficulty">D9</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1027185974234583050/Minecraft_1.8.9_2022-10-05_14-48-00_Trim.mp4"></video>
+            <p class="source">
+                Source: Mauno#7387
+            </p>
+        </div>
+
+        <div class="item" aliases="j1 legend head waza post gap non pregapped">
+            <h2 class="title">
+                J1 Legend
+            </h2>
+            <p class="difficulty">D9</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1028689726653333594/birthday_head_waza.mp4"></video>
+            <p class="source">
+                Source: Libration#5437
+            </p>
+        </div>
+
+        <div class="item" aliases="h2f inertia neo straight elevation mm">
+            <h2 class="title">
+                H2F Straight
+            </h2>
+            <p class="difficulty">D10</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1028656344703713411/oneshot_h2f.mp4"></video>
+            <p class="source">
+                Source: wlef#3858
+            </p>
+        </div>
+
+        <div class="item" aliases="head waza pregapped d9-7 j1 l2l to ladder clutch">
+            <h2 class="title">
+                Head Waza Pregapped to Ladder
+            </h2>
+            <p class="difficulty">D9</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1028112124146352198/uncapped_MedalTVMinecraft20221008020551.mp4"></video>
+            <p class="source">
+                Source: HugoGibs#9380
+            </p>
+        </div>
+
+        <div class="item" aliases="d8-4 j4 4.75bmm double 45 strafe 4.1825b 4b">
+            <h2 class="title">
+                4.75bmm 48125b
+            </h2>
+            <p class="difficulty">D9</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1028112124146352198/uncapped_MedalTVMinecraft20221008020551.mp4"></video>
+            <p class="source">
+                Source: HugoGibs#9380
+            </p>
+        </div>
+
+        <div class="item" aliases="d10-2 j3 1bmm s2f neup neo +1">
+            <h2 class="title">
+                S2f Neup
+            </h2>
+            <p class="difficulty">D10</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1027213770646355978/Minecraft_1.8.9_2022-10-05_16-38-15_Trim.mp4"></video>
+            <p class="source">
+                Source: Mauno#7387
+            </p>
+        </div>
+
+        <div class="item" aliases="c2b 45bwmm double 45 strafe 4x1">
+            <h2 class="title">
+                C2b 4x1
+            </h2>
+            <p class="difficulty">D8</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1026913833698214029/Minecraft_1.8.9_2022-10-04_18-39-46_Trim.mp4"></video>
+            <p class="source">
+                Source: Mauno#7387
+            </p>
+        </div>
+
+        <div class="item" aliases="j1 master s neo mm 45bwmm double 45 strafe">
+            <h2 class="title">
+                J1 Master S Neo MM
+            </h2>
+            <p class="difficulty">D7</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1026488955006353488/j1_master_45bwmm_s_neo.mp4"></video>
+            <p class="source">
+                Source: nipi26#8641
+            </p>
+        </div>
+
+        <div class="item" aliases="d9-8 j5 double triple 2bmm bwmm 45 strafe">
+            <h2 class="title">
+                2bmm Double Triple
+            </h2>
+            <p class="difficulty">D9</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1025990604225785977/uncapped_MedalTVMinecraft20221002053209.mp4"></video>
+            <p class="source">
+                Source: HugoGibs#9380
+            </p>
+        </div>
+
+        <div class="item" aliases="d9-10 j2 p2p 3bmm pane mm">
+            <h2 class="title">
+                Pane 3bmm p2p
+            </h2>
+            <p class="difficulty">D9</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1025401344774897694/D9-10_j2.mp4"></video>
+            <p class="source">
+                Source: Invicta#9115
+            </p>
+        </div>
+
+        <div class="item" aliases="d8-1 j2 1bmm 45bwmm double 45 strafe s neo momentum">
+            <h2 class="title">
+                3.5+1 S Neo 1bmm
+            </h2>
+            <p class="difficulty">D8</p>
+            <video preload="metadata" controls loading="lazy"
+                src="https://cdn.discordapp.com/attachments/793324984873386014/1025361469849731114/sneo351.mp4"></video>
+            <p class="source">
+                Source: wolf#8673
+            </p>
+        </div>
+
+        <!--
+        <div class="item" aliases="s2f 4b 4.375b rex bwmm">
+            <h2 class="title">
+                s2f 4b
+            </h2>
+            <p class="difficulty">
+                D5
+            </p>
+            <iframe src="https://www.youtube.com/embed/ez13w13e8Lo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <p class="source">
+                Source: 
+            </p>
+        </div>
+
+        <div class="item" aliases="3bm triple z facing">
+            <h2 class="title">
+                3bm triple
+            </h2>
+            <p class="difficulty">
+                D5
+            </p>
+            <iframe src="https://www.youtube.com/embed/wkBrei6Y8Hw"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <p class="source">
+                Source: 
+            </p>
+        </div>
+    -->
+
+    </li>
+    <style>
+        @media (prefers-color-scheme: light) {
+            :root {
+                --main-color: #ffffff;
+                --secondary-color: #e6e6e6;
+                --text: #000000;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --main-color: #000000;
+                --secondary-color: #191919;
+                --text: #ffffff;
+            }
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap');
+
+        :root {
+            font-family: 'Figtree', sans-serif !important;
+        }
+
+        body {
+            background-color: var(--main-color);
+            font-family: 'Figtree', sans-serif;
+        }
+
+        body::-webkit-scrollbar {
+            width: 0em;
+        }
+
+        input[type="search"] {
+            size: 10vw;
+            padding: 0vw;
+            height: 4vw;
+            border: 0.2vw solid var(--secondary-color);
+            border-radius: 1vw;
+        }
+
+        input {
+            background-color: var(--main-color) !important;
+        }
+
+        button {
+            height: 4vw;
+            width: 10vw;
+            font-size: 1.5vw;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 8vw;
+        }
+
+        #catalog {
+            display: grid;
+            width: 98vw;
+            margin: 0vw 1vw;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1vw;
+        }
+
+        .item {
+            background-color: var(--secondary-color);
+            border-radius: 2vw;
+            padding: 1vw;
+            position: relative;
+        }
+
+        iframe,
+        video {
+            aspect-ratio: 16 / 9;
+            width: 30vw;
+            border-radius: 1.5vw;
+            border: none;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        form {
+            color: var(--text) !important;
+            margin: 0 !important;
+            font-family: 'Figtree', sans-serif;
+        }
+
+        h2,
+        .difficulty {
+            margin-left: 0.4vw;
+        }
+
+        .difficulty {
+            font-size: 1.5vw;
+            width: max-content;
+            padding: 0.5vw 1vw;
+            border-radius: 1vw;
+            /*background-color: #cccccc;*/
+        }
+
+        .item>video {
+            margin-top: 0.5vw;
+        }
+
+        .difficulty[data-text="D7"] {
+            background: magenta;
+        }
+
+        .difficulty[data-text="D8"] {
+            background: purple;
+        }
+
+        .difficulty[data-text="D9"] {
+            background: cyan;
+        }
+
+        .difficulty[data-text="D10"] {
+            background: #ffffff;
+        }
+    </style>
+</body>
