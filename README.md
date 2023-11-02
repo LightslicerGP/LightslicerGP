@@ -4,7 +4,7 @@
 ### I am a student that loves to game and code!
 - 🔭 I’m currently working on https://lightslicergp.github.io/Website/ & https://oneuihome.netlify.app/
 - 🌱 I’m currently learning HTML/CSS/JScript/Aoijs
-- 👯 I’m looking to collaborate on a site someone would like for me to help with
+- 🫱🏻‍🫲🏾 I’m looking to collaborate on a site someone would like for me to help with
 - 🤔 I’m looking for help with some javascript terms
 - 💬 Ask me about how my day was, and my favorite quote
 - 📫 How to reach me: Lightslicerandpuzzlegamer@gmail.com or LightslicerGP on many social media platforms (view below)
