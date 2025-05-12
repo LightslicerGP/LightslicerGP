@@ -77,6 +77,7 @@
 - Minecraft Bedrock Word Processor with Just Redstone
 - Minecraft RGB Display with Just Redstone
 - Minecraft Serial Display over one Redstone Line
+- BWMM's 2 Extended [(add more bwmm strats to this video)](https://youtu.be/-wFM8pGgAwA)
 - [`Glitterati - Fox Morrow`](https://youtu.be/9Ze3xmrju7s) Forza Horizon (3) "Music Video"
 - Possibly some edits, and/or valorant gameplay (with an edit)
 - Tons of other videos I have recorded but yet to upload
