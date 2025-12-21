@@ -58,7 +58,7 @@
 
 ## Programming
 - [Excpute (an 8, and an upcoming 16 bit CPU)](https://github.com/LightslicerGP/Excpute)
-- Compiler for the CPU (its hard 😭)
+- [Compiler for the CPU (its hard 😭)](https://github.com/LightslicerGP/Compiler)
 - [Discord Bot v3 (updated to have parity between a python and aoijs version compared to v2)](https://github.com/LightslicerGP/LightslicerGPBotV3)
 - [YouTube Music Downloader _**(FOR EDUCATIONAL PURPOSES**_...*allegedly*)](https://github.com/LightslicerGP/YTMDL)
 - [(*the best imo*) Minecraft Redstone Lamp Display Emulator](https://github.com/LightslicerGP/RedstoneLampDisplay)
@@ -76,6 +76,7 @@
 - 5 years of MCPK, parkour progress
 - Minecraft Bedrock Word Processor with Just Redstone
 - Minecraft RGB Display with Just Redstone
+- Minecraft Camera 16x16 Camera with Just Redstone
 - Minecraft Serial Display over one Redstone Line
 - BWMM's 2 Extended [(add more bwmm strats to this video)](https://youtu.be/-wFM8pGgAwA)
 - [`Glitterati - Fox Morrow`](https://youtu.be/9Ze3xmrju7s) Forza Horizon (3) "Music Video"
