@@ -52,6 +52,7 @@
 - Skyblock+ (might rename to somth else)
 - Bedrock Word Processor
 - RGB Display Prototype
+- Bedrock Camera
 - Single Redstone Line Serial Display
 - Minigames Map (8, mabye more, minigames)
 - World Economy Emulator (jobs, plots, stocks and other stuff? idk)
